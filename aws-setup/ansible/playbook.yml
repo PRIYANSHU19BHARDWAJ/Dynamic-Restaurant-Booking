@@ -1,0 +1,14 @@
+- name: Deploy Restaurant Booking Site
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install Apache
+      apt:
+        name: apache2
+        state: present
+        update_cache: yes
+
+    - name: Deploy website content
+      copy:
+        src: ../../
+        dest: /var/www/html/
