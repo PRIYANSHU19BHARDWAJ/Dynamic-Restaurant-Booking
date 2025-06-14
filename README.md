@@ -1,16 +1,30 @@
-# Frontend_Backery-or-Restaurant_GSBSP-BR27
-Frontend Hackathon for Restaurant Website
+# 🍽️ Dynamic Restaurant Booking Web App
 
-This website is made for the restaurant which shows all the features provided to customers.<br>
-Customer can book the seat in advance or can dine in the restaurant with family, officemates, friends.<br>
+A cloud-based, responsive restaurant booking website developed as an academic DevOps/Cloud project. Built using HTML, CSS, JavaScript and deployed on AWS using Terraform, Ansible, and optionally Lambda.
 
-Technology Stack used <br> 
-Html5<br>
-Css3<br>
-Bootstrap<br>
-Javascript <br>
+---
 
-<img src="website.PNG"></img>
+## 🚀 Features
 
-This website contains following features<br>
-Home<br>About US<br>Team<br>Gallery<br>Reservation<br>Contact US<br>Blog<br> 
+- Mobile-friendly restaurant booking interface
+- Deployed on AWS EC2 (Free Tier)
+- Infrastructure provisioned via Terraform (IaC)
+- Web server configured with Ansible
+- Optional booking logic using AWS Lambda
+- Centralized logging with CloudWatch
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Cloud Platform:** AWS (EC2, S3, Lambda, IAM, CloudWatch)
+- **IaC:** Terraform
+- **Configuration Management:** Ansible
+- **Automation:** GitHub Actions (CI/CD optional)
+- **Monitoring:** AWS CloudWatch
+- **Scripting:** Bash, Python (for Lambda)
+
+---
+
+ 
