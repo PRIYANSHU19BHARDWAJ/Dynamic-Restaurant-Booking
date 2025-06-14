@@ -25,5 +25,8 @@ A cloud-based, responsive restaurant booking website developed as an academic De
 - **Scripting:** Bash.
 
 ---
+## 📎 License
+
+This project is for educational purposes only and is released under the MIT License.
 
  
